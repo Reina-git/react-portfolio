@@ -3,138 +3,230 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Reina Uhler</title>
-
+      ​
       <link href="/style/dist.css" rel="stylesheet" />
    </head>
    <body>
       <div class="container">
-         <div class="row">
-            <!-- <div class="col-12"> -->
-            <div class="col-12 mt-6 d-flex justify-content-center title">
-               <h1 class="display-3">Reina Uhler</h1>
-            </div>
-            <div class="col-12 mt-6 d-flex justify-content-center">
-               <h4 class="display-6">Full Stack Developer</h4>
-            </div>
-            <div class="col-12 mt-6 d-flex justify-content-center">
-               <p>
-                  <a href="github.com" class="btn btn-link d-inline-block">
-                     <img src="/icon/github.svg" width="20px" /> Github
-                  </a>
-                  <a href="linkedin.com" class="btn btn-link">
-                     <img src="/icon/linkedin.svg" width="20px" /> LinkedIn
-                  </a>
-                  <a href="youtube.com" class="btn btn-link">
-                     <img src="/icon/youtube.svg" width="20px" /> YouTube
-                  </a>
+         <div class="row mt-2">
+            <div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+               <h1 class="display-3 mb-1 text-center title">Reina Uhler</h1>
+               <p class="lead font-weight-normal mb-4 text-center">
+                  Full stack developer
                </p>
-            </div>
-            <!-- <div class="row"> -->
-            <div class="col-10 col-xl-6 offset-xl-2 col-lg-9 offset-lg-2">
-               <div class="row">
-                  <div class="col-6 mt-3">
+               <p class="lead font-weight-normal text-center mb-4 mb-sm-5">
+                  <a href="#" class="d-inline-block"
+                     ><img
+                        src="/icon/github.svg"
+                        width="24px"
+                        class="ml-4 mt-n1"
+                     /><span class="ml-2">Github</span></a
+                  >
+                  <a href="#" class="d-inline-block"
+                     ><img
+                        src="/icon/linkedin.svg"
+                        width="20px"
+                        class="ml-4 mt-n1"
+                     /><span class="ml-2">LinkedIn</span></a
+                  >
+                  <a href="#" class="d-inline-block"
+                     ><img
+                        src="/icon/youtube.svg"
+                        width="28px"
+                        class="ml-4 mt-1"
+                     /><span class="ml-2">YouTube</span></a
+                  >
+               </p>
+               ​
+               <div class="row mb-2">
+                  <div class="col-12 col-sm-8">
                      <input
-                        class="form-control form-control-sm mt-3"
-                        type="search projects"
+                        id="search-projects"
+                        class="form-control"
                         placeholder="Search projects"
-                        id="search projects"
                      />
                   </div>
-                  <div class="col-6 mt-5">
-                     <div class="form-check float-right mr-5">
+                  <div class="col-12 col-sm-4">
+                     <div
+                        class="custom-control custom-checkbox custom-control-inline float-right mr-0 mt-2"
+                     >
                         <input
                            type="checkbox"
-                           class="form-check-input"
-                           id="advancedView"
+                           class="custom-control-input"
+                           id="advanced-view"
                         />
-                        <label class="form-check-label" for="exampleCheck1"
+                        <label class="custom-control-label" for="advanced-view"
                            >Advanced view</label
                         >
                      </div>
                   </div>
+               </div>
+               ​
+               <div class="row mb-5">
                   <div class="col-12">
-                     <div class="form-check d-inline">
+                     <div
+                        class="custom-control custom-radio custom-control-inline"
+                     >
                         <input
-                           class="form-check-input"
                            type="radio"
-                           name="sortRecentPopular"
-                           id="mostRecent"
-                           value="mostRecent"
-                           checked
+                           id="most-recent"
+                           name="order-projects"
+                           class="custom-control-input"
+                           checked="checked"
                         />
-                        <label class="form-check-label" for="mostRecent">
-                           Most recent
-                        </label>
-                     </div>
-                     <div class="form-check d-inline ml-2">
-                        <input
-                           class="form-check-input"
-                           type="radio"
-                           name="sortRecentPopular"
-                           id="mostPopular"
-                           value="mostPopular"
-                        />
-                        <label
-                           class="form-check-label d-inline"
-                           for="mostPopular"
+                        <label class="custom-control-label" for="most-recent"
+                           >Most recent</label
                         >
-                           Most popular
-                        </label>
                      </div>
-                  </div>
-                  <!-- <div class="row"> -->
-                  <div class="col-12 mt-3">
-                     <h5 class="mt-4">
-                        Validation of Email and Password on Account Creation
-                     </h5>
-                  </div>
-                  <div class="col-12 col-sm-4 mt-2">
-                     <img src="/icon/emailPW.webp" width="100%" />
-                  </div>
-                  <div class="col-6 mt-2">
-                     <img src="icon/star.svg" width="15px" />
-                     <img src="icon/star.svg" width="15px" />
-                     <img src="icon/star.svg" width="15px" />
-                     <img src="icon/star.svg" width="15px" />
-                     <p class="d-inline">
-                        Password and email validation following best practices.
-                        (2 min.)
-                     </p>
-                     <p>October 4, 2020</p>
-                     <a href="https://github.com/Reina-git/Crowd-tag"
-                        ><img src="/icon/link.svg" width="10px" />
-                        https://github.com/Reina-git/C..
-                     </a>
-                  </div>
-                  <!-- </div> -->
-                  <!-- <div class="row"> -->
-                  <div class="col-12 mt-4">
-                     <h5 class="mt-6">Walkthrough of Crowd Tag prototype</h5>
-                  </div>
-                  <div class="col-4 mt-2">
-                     <img src="/icon/crowdtag.webp" width="100%" />
-                  </div>
-                  <div class="col-6 mt-2">
-                     <img src="icon/star.svg" width="15px" />
-                     <img src="icon/star.svg" width="15px" />
-                     <img src="icon/star.svg" width="15px" />
-                     <img src="icon/star.svg" width="15px" />
-                     <p class="d-inline">
-                        Prototype of Crowd Tag, an app that helps libraries and
-                        historical societies crowdsource metadata for their
-                        photographic collections. (3 min.)
-                     </p>
-                     <p class="mt-2">October 4, 2020</p>
-                     <a href="https://github.com/Reina-git/Crowd-tag"
-                        ><img src="/icon/link.svg" width="10px" />
-                        https://github.com/Reina-git/C..
-                     </a>
+                     <div
+                        class="custom-control custom-radio custom-control-inline"
+                     >
+                        <input
+                           type="radio"
+                           id="most-popular"
+                           name="order-projects"
+                           class="custom-control-input"
+                        />
+                        <label class="custom-control-label" for="most-popular"
+                           >Most popular</label
+                        >
+                     </div>
                   </div>
                </div>
+               ​
+               <!-- Start Project Component -->
+               <div class="row mb-5">
+                  <div class="col-12 mb-2">
+                     <a href="" class="text-reset">
+                        <h3 class="font-weight-normal">
+                           Validation of Email and Password on Account Creation
+                        </h3>
+                     </a>
+                  </div>
+                  <div class="col-12 col-md-4">
+                     <a href="https://www.youtube.com/watch?v=7upUHKgsLLI">
+                        <img
+                           src="icon/validationOfEmailAndPasswordOnAccountCreation.webp"
+                           width="510px"
+                           class="img-fluid"
+                        />
+                     </a>
+                  </div>
+                  <div class="col-12 col-md-8 mt-3 mt-md-n1">
+                     <a
+                        href="https://www.youtube.com/watch?v=7upUHKgsLLI"
+                        class="text-decoration-none text-reset"
+                     >
+                        <p>
+                           <img
+                              src="icon/star.svg"
+                              width="16px"
+                              class="mr-n1"
+                           />
+                           <img
+                              src="icon/star.svg"
+                              width="16px"
+                              class="mr-n1"
+                           />
+                           <img
+                              src="icon/star.svg"
+                              width="16px"
+                              class="mr-n1"
+                           />
+                           <img
+                              src="icon/star.svg"
+                              width="16px"
+                              class="mr-n1"
+                           />
+                           <span class="ml-2">
+                              Password and email validation following best
+                              practices. (2 min.)</span
+                           >
+                        </p>
+                        <p>Oct. 30, 2020</p>
+                     </a>
+                     <a href="https://github.com/Reina-git/Crowd-tag"
+                        ><img
+                           src="icon/link.svg"
+                           width="16px"
+                           class="mr-2"
+                        />https://github.com/Reina-git/C...</a
+                     >
+                  </div>
+               </div>
+               <!-- End Project Component -->
+               ​
+               <!-- Start Project Component -->
+               <div class="row mb-5">
+                  <div class="col-12 mb-2">
+                     <a
+                        href="https://www.youtube.com/watch?v=LN02lBrDdt4&t=1s"
+                        class="text-reset"
+                     >
+                        <h3 class="font-weight-normal">
+                           Walkthrough of Crowd Tag prototype
+                        </h3>
+                     </a>
+                  </div>
+                  <div class="col-12 col-md-4">
+                     <a href="https://www.youtube.com/watch?v=LN02lBrDdt4&t=1s">
+                        <img
+                           src="icon/walkthroughOfCrowdTagPrototype.webp"
+                           width="510px"
+                           class="img-fluid"
+                        />
+                     </a>
+                  </div>
+                  <div class="col-12 col-md-8 mt-3 mt-md-n1">
+                     <a
+                        href="https://www.youtube.com/watch?v=LN02lBrDdt4&t=1s"
+                        class="text-decoration-none text-reset"
+                     >
+                        <p>
+                           <img
+                              src="icon/star.svg"
+                              width="16px"
+                              class="mr-n1"
+                           />
+                           <img
+                              src="icon/star.svg"
+                              width="16px"
+                              class="mr-n1"
+                           />
+                           <img
+                              src="icon/star.svg"
+                              width="16px"
+                              class="mr-n1"
+                           />
+                           <img
+                              src="icon/star.svg"
+                              width="16px"
+                              class="mr-n1"
+                           />
+                           <img
+                              src="icon/star.svg"
+                              width="16px"
+                              class="mr-n1"
+                           />
+                           <span class="ml-2">
+                              Prototype of Crowd Tag, an app that helps
+                              libraries crowdsource metadata for their
+                              photographic collections. (3 min.)</span
+                           >
+                        </p>
+                        <p>Oct. 28, 2020</p>
+                     </a>
+                     <a href="https://github.com/Reina-git/Crowd-tag"
+                        ><img
+                           src="icon/link.svg"
+                           width="16px"
+                           class="mr-2"
+                        />https://github.com/Reina-git/C...</a
+                     >
+                  </div>
+               </div>
+               <!-- End Project Component -->
             </div>
-            <!-- </div> -->
-            <!-- </div> -->
-            <!-- </div> -->
          </div>
       </div>
    </body>
